@@ -4,12 +4,12 @@
   <!-- Device trees -->
   <project path="device/google/pantah" name="Charcoal-Playground/android_device_google_pantah" remote="github" revision="16" />
   <project path="device/google/gs201" name="Charcoal-Playground/android_device_google_gs201" remote="github" revision="16" />
-  <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" remote="github" />
+  <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" revision="lineage-23.2" remote="github" />
 
   <!-- Kernel prebuilts -->
   <project path="device/google/pantah-kernels/6.1" name="yaap/device_google_pantah-kernels_6.1" remote="github" revision="sixteen" />
 
   <!-- Proprietary blobs -->
-  <project path="vendor/google/cheetah" name="Charcoal-Playground/proprietary_vendor_google_cheetah" remote="gitlab" />
-  <project path="vendor/google/panther" name="Charcoal-Playground/proprietary_vendor_google_panther" remote="gitlab" />
+  <project path="vendor/google/cheetah" name="Charcoal-Playground/proprietary_vendor_google_cheetah" revision="16" remote="gitlab" />
+  <project path="vendor/google/panther" name="Charcoal-Playground/proprietary_vendor_google_panther" revision="16" remote="gitlab" />
 </manifest>
